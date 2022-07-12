@@ -1,0 +1,44 @@
+h1 {
+    color: red;
+}
+
+p, li {
+    color: green;
+}
+
+ul {
+    background-color: azure;
+    border: 2px solid blue;
+    list-style-type: square;
+}
+
+.special {
+    color: orange;
+    font-weight: bold;
+}
+
+li em {
+    color: rebeccapurple;
+}
+
+h1 + p {
+    font-size: 200%;
+}
+
+a:link {
+    color: pink;
+}
+
+a:visited {
+    color: greenyellow;
+}
+
+a:hover {
+    text-decoration: underline overline #FF3028;
+}
+
+body h1 + p .special {
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+  }
