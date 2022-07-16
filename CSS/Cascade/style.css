@@ -1,0 +1,9 @@
+/* Example1: Simple Cascade conflict */
+p {
+    color: blue;
+}
+
+p {
+    color: red;
+}
+
