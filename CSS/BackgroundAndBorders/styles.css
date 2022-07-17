@@ -1,0 +1,33 @@
+.a {
+    background-image: url("https://mdn.github.io/css-examples/learn/backgrounds-borders/balloons.jpg");
+    background-color: black;
+}
+
+.b {
+    background-image: url("https://mdn.github.io/css-examples/learn/backgrounds-borders/star.png");
+    background-color: azure;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.cover {
+    background-image: url("https://mdn.github.io/css-examples/learn/backgrounds-borders/balloons.jpg");
+    background-size: cover;
+}   
+
+.contain {
+    background-image: url("https://mdn.github.io/css-examples/learn/backgrounds-borders/balloons.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.box {
+    height: 100px;
+    width: 200px;
+    border: 5px solid black;
+    margin: 10px;
+}
+
+.wrapper {
+    display: inline-flex;
+}
