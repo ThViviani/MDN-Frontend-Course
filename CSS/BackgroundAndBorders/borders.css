@@ -1,0 +1,27 @@
+.box {
+    background-color: #567895;
+    border: 5px solid #0b385f;
+    border-bottom-style: dashed;
+    border-top-style: double;
+    border-top-width: 15px;
+    border-top-color: pink;
+    color: #fff;
+  }
+  
+  h2 {
+    border-top: 2px dotted rebeccapurple;
+    border-bottom: 1em double rgb(24, 163, 78);
+    border-right-width: 5px;
+    border-right-color: orange;
+    border-right-style: dotted;
+    background-color: azure;
+  }
+
+  .radius {
+    border: 5px solid black;
+    margin-top: 15px;
+    height: 150px;
+    width: 250px;
+    border-radius: 1em;
+    border-top-right-radius: 10% 30%;
+  }
