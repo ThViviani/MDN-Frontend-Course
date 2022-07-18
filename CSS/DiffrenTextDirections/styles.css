@@ -1,0 +1,17 @@
+.box {
+    block-size: 200px;
+    border: 5px solid black;
+    margin: 5px;
+}
+
+.horizontal {
+    writing-mode: horizontal-tb;
+}
+
+.vertical {
+    writing-mode: vertical-rl;
+}
+
+.wrapper {
+    display: inline-flex;
+}
