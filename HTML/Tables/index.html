@@ -3,36 +3,98 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Animals table</title>
-    <link href="styles.css" rel="stylesheet" type="text/css">
+    <title>School timetable</title>
+    <style>
+        html {
+            font-family: sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 0.8rem;
+        }
+
+        td,
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        td {
+            text-align: center;
+        }
+
+        caption {
+            padding: 10px;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Animals table</h1>
+    <h1>School timetable</h1>
 
     <table>
+        <colgroup>
+            <col>
+            <col>
+            <col style="background-color: #97DB9A;">
+            <col style="width: 42px;">
+            <col style="background-color: #97DB9A;">
+            <col style="background-color:#DCC48E; border: 4px solid #C1437A;">
+            <col>
+            <col style="width: 42px;">
+        </colgroup>
         <tr>
-            <th colspan="2">Animals</th>
+            <td>&nbsp;</td>
+            <th>Mon</th>
+            <th>Tues</th>
+            <th>Wed</th>
+            <th>Thurs</th>
+            <th>Fri</th>
+            <th>Sat</th>
+            <th>Sun</th>
         </tr>
         <tr>
-            <th colspan="2">Hippopotamus</th>
+            <th>1st period</th>
+            <td>English</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>German</td>
+            <td>Dutch</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
         </tr>
         <tr>
-            <th rowspan="2">Horse</th>
-            <td>Mare</td>
+            <th>2nd period</th>
+            <td>English</td>
+            <td>English</td>
+            <td>&nbsp;</td>
+            <td>German</td>
+            <td>Dutch</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
         </tr>
         <tr>
-            <td>Stallion</td>
+            <th>3rd period</th>
+            <td>&nbsp;</td>
+            <td>German</td>
+            <td>&nbsp;</td>
+            <td>German</td>
+            <td>Dutch</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
         </tr>
         <tr>
-            <th colspan="2">Crocodile</th>
-        </tr>
-        <tr>
-            <th rowspan="2">Chicken</th>
-            <td>Hen</td>
-        </tr>
-        <tr>
-            <td>Rooster</td>
+            <th>4th period</th>
+            <td>&nbsp;</td>
+            <td>English</td>
+            <td>&nbsp;</td>
+            <td>English</td>
+            <td>Dutch</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
         </tr>
     </table>
 
